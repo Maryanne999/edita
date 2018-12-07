@@ -216,7 +216,7 @@ display: inline-block;
   padding: 8px 0;
   text-transform: uppercase;
   color: #000;
-  background-image: linear-gradient(to bottom, #dcdcdc 7%, #dcdcdc 7%, #f2f2f2 30%, #f2f2f2 30%, #f2f2f2 70%, #dcdcdc 100%);
+  background: linear-gradient(to bottom, #dcdcdc 7%, #dcdcdc 7%, #f2f2f2 30%, #f2f2f2 30%, #f2f2f2 70%, #dcdcdc 100%);
 	max-width: 207px;
     margin: 0px 3px 0 21px;
 	text-align: center;
@@ -227,7 +227,7 @@ display: inline-block;
     padding: 8px 0;
     text-transform: uppercase;
     color: #fff;
-    background-image: linear-gradient(to bottom, rgba(194,36,45,1) 0%,rgba(205,47,56,1) 50%,rgba(194,36,45,1) 100%);
+    background: linear-gradient(to bottom, rgba(194,36,45,1) 0%,rgba(205,47,56,1) 50%,rgba(194,36,45,1) 100%);
 	max-width: 157px;
     margin: 0 3px;
 	text-align: center;
@@ -311,7 +311,6 @@ display: inline-block;
 .advantages-wrapper {
     padding: 50px 70px;
 }
-
 .advantages {
     justify-content: space-around;
 }
@@ -938,7 +937,7 @@ a:hover {
 }
 .footer__map .btn:hover {
     color: #fff;
-    background-image: linear-gradient(to bottom, #c2242d 0%, #c2242d 50%, #c2242d 100%);
+    background: linear-gradient(to bottom, #c2242d 0%, #cd2f38 50%, #c2242d 100%);
     text-decoration: none;
 }
 .footer__bottom {
@@ -1017,7 +1016,7 @@ ul.menu-nav.menu-nav--fixed {
     /*display: flex;*/
 	display: none;
     position: absolute;
-    top: 72%;
+    top: 88%;
     left: 0;
     width: 100%;
     padding-top: 7px;
@@ -1105,15 +1104,15 @@ ul.menu-nav.menu-nav--fixed {
 .inner-block:hover a {
     text-decoration: none;
 }
-.recommended .slick-prev::before, .recommended .slick-next::before {
+.recommended .slick-prev::before, .slick-next::before {
 	top: 50%;
 	left: 50%;
 }
-.sale .slick-prev::before, .sale .slick-next::before {
+.sale .slick-prev::before, .slick-next::before {
 	top: 50%;
 	left: 50%;
 }
-.new .slick-prev::before, .new .slick-next::before {
+.new .slick-prev::before, .slick-next::before {
 	top: 50%;
 	left: 50%;
 }
@@ -1133,116 +1132,4 @@ ul.menu-nav.menu-nav--fixed {
 }
 .article a:hover {
 	text-decoration: none;
-}
-.header-bottom-nav__item:hover .bottom-nav__sub-menu {
-    display: -webkit-flex;
-    display: -ms-flex;
-    display: flex;
-    -webkit-flex-direction: row;
-    -ms-flex-direction: row;
-    flex-direction: row;
-}
-.sub-menu__link--curr:after {
-    content: '';
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    left: 100%;
-    display: block;
-    height: 2px;
-    width: 30px;
-    background: #000;
-}
-.articles {
-    background: #f8f8f8;
-    padding-top: 76px;
-    padding-bottom: 70px;
-    margin-top: 104px;
-}
-a.btn.btn-arrow.btn-arrow--right:before {
-    content: '';
-    width: 9px;
-    height: 9px;
-    border-bottom: 2px solid #000000;
-    border-right: 2px solid #000000;
-    position: absolute;
-    right: 20px;
-    top: 15px;
-    transform: rotate(-45deg);
-}
-.footer__map .btn:hover.btn-arrow--right:before {
-	    border-bottom: 2px solid #ffffff;
-    border-right: 2px solid #ffffff;
-}
-@media (max-width: 1200px) {
-	.header-bottom {
-    padding-left: 15px;
-    padding-right: 15px;
-}
-	.header-top, .header-bottom {
-    width: 100%;
-    max-width: 1170px;
-}
-	.menu-nav>li {
-    margin-left: 18px;
-}
-	.banner__content.banner__content--lg {
-    padding: 25px 20px;
-    top: 178px;
-}
-	.banner__content.banner__content--md {
-    padding: 12px 15px;
-    top: 80px;
-    left: 16px;
-}
-	.banner--margin-bottom {
-    margin-bottom: 20px;
-}
-	.advantages-wrapper .row {
-    flex-wrap: nowrap;
-}
-	.product__price .old-price {
-    left: -13px;
-}
-}
-@media (max-width: 991px) {
-	.banner__title.banner__title--lg {
-    font-size: 18px;
-    line-height: 1.2em;
-}
-	.banner__txt {
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 1.3em;
-    margin-bottom: 20px;
-    margin-top: 10px;
-}
-	.banner__txt {
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 1.3em;
-    margin-bottom: 20px;
-    margin-top: 10px;
-}
-	.banner__content.banner__content--lg {
-    top: 155px;
-}
-.banner__title.banner__title-md {
-    font-size: 15px;
-    line-height: 1.2em;
-}
-.banner__content.banner__content--md {
-    top: auto;
-    left: 6px;
-    bottom: 10px;
-}
-	.banner__content {
-    background: rgba(255, 255, 255, 0.7);
-}
-	.banner__content.banner__content--karakul {
-		padding: 10px 35px;
-	}
-	.banner__content.banner__content--leather {
-    padding: 15px 32px;
-}
 }
