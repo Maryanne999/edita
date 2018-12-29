@@ -81,6 +81,7 @@ $(document).ready(function(){
 
    });
 
+<<<<<<< HEAD
        // mmenu initialization
           $('#mobile-menu').mmenu({
              // options
@@ -98,3 +99,5 @@ $(document).ready(function(){
         evt.preventDefault();
          API.close();
       });
+=======
+>>>>>>> master

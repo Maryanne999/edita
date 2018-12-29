@@ -735,11 +735,15 @@ display: inline-block;
 .btn.btn--border.btn-border--white:hover {
     background: red;
 }
+<<<<<<< HEAD
 
 .inner-block-wrapper-right {
 background: url(../img/zal.jpg) no-repeat center/cover;
 }
 .inner-block-wrapper-left {
+=======
+.col-md-6.inner-block-wrapper.no-padding {
+>>>>>>> master
     background: linear-gradient(to right,
 		rgba(220,220,220,1) 7%,
 		rgba(220,220,220,1) 7%,
@@ -1131,11 +1135,19 @@ ul.menu-nav.menu-nav--fixed {
     background: #405986;
 }
 .header-bottom-btns .btn.btn--grey:hover {
+<<<<<<< HEAD
     background: linear-gradient(to bottom, #dddddd 40%, #ded9d9 10%,  #dddddd 100%);
     text-decoration: none;
 }
 .header-bottom-btns .btn.btn--red:hover {
     background-image: linear-gradient(to bottom, rgb(216, 41, 51) 50%,rgb(222, 12, 24) 100%);
+=======
+    background: #ddd;
+    text-decoration: none;
+}
+.header-bottom-btns .btn.btn--red:hover {
+    background: #ff2b37;
+>>>>>>> master
     text-decoration: none;
 }
 .article a:hover {
@@ -1181,6 +1193,7 @@ a.btn.btn-arrow.btn-arrow--right:before {
 	    border-bottom: 2px solid #ffffff;
     border-right: 2px solid #ffffff;
 }
+<<<<<<< HEAD
 
 .hamburger-menu-button {
     cursor: pointer;
@@ -1199,6 +1212,8 @@ a.btn.btn-arrow.btn-arrow--right:before {
     display: flex;
 }
 
+=======
+>>>>>>> master
 @media (max-width: 1200px) {
 	.header-bottom {
     padding-left: 15px;
@@ -1223,16 +1238,23 @@ a.btn.btn-arrow.btn-arrow--right:before {
 	.banner--margin-bottom {
     margin-bottom: 20px;
 }
+<<<<<<< HEAD
  /*   .advantages-wrapper .row {
     flex-wrap: nowrap;
 }
 	.advantages-wrapper .row div {
   flex-shrink: 1;
 }*/
+=======
+	.advantages-wrapper .row {
+    flex-wrap: nowrap;
+}
+>>>>>>> master
 	.product__price .old-price {
     left: -13px;
 }
 }
+<<<<<<< HEAD
 
 
 @media (max-width: 1023px) {
@@ -1243,6 +1265,8 @@ a.btn.btn-arrow.btn-arrow--right:before {
 
 
 
+=======
+>>>>>>> master
 @media (max-width: 991px) {
 	.banner__title.banner__title--lg {
     font-size: 18px;
@@ -1284,6 +1308,7 @@ a.btn.btn-arrow.btn-arrow--right:before {
     padding: 15px 32px;
 }
 }
+<<<<<<< HEAD
 /*@media (min-width: 768px) {
 .container-fluid .col-md-6 {
     width: 100%;
@@ -1390,3 +1415,5 @@ a.btn.btn-arrow.btn-arrow--right:before {
     margin-left: 0;
   }
 }
+=======
+>>>>>>> master
